@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Calculator by Raiza Estrella</title>
+    <link rel="stylesheet" href="cal1.css">
+  </head>
+  <body>
+    <header>
+        <nav>
+          <ul>
+            <img src="gp.png">
+          </ul>
+        </nav>
+      </header>
+      
+      <h1>CALCULATOR</h1>
+    <div id="calculator">
+      <div id="display"></div>
+      
+     <button class="button" onclick="addToDisplay('/')">÷</button>
+      <button class="button" onclick="addToDisplay('*')">×</button>
+      <button class="button" onclick="clearDisplay()">C</button>
+      <button class="button" onclick="clearDisplay()">D</button>
+      
+
+      <button class="button" onclick="addToDisplay('-')">-</button>
+      <button class="button" onclick="addToDisplay('7')">7</button>
+      <button class="button" onclick="addToDisplay('8')">8</button>
+      <button class="button" onclick="addToDisplay('9')">9</button>
+      
+      <button class="button" onclick="addToDisplay('+')">+</button>
+      <button class="button" onclick="addToDisplay('4')">4</button>
+      <button class="button" onclick="addToDisplay('5')">5</button>
+      <button class="button" onclick="addToDisplay('6')">6</button>
+      
+      <button class="button" onclick="addToDisplay('.')">.</button>
+      <button class="button" onclick="addToDisplay('1')">1</button>
+      <button class="button" onclick="addToDisplay('2')">2</button>
+      <button class="button" onclick="addToDisplay('3')">3</button>
+      
+      <button class="button" onclick="calculate()">(</button>
+      <button class="button" onclick="calculate()">)</button>
+      <button class="button" onclick="addToDisplay('0')">0</button>
+      
+      <div class="column">
+        <button class="button" id="btn-equals" onclick="calculate()">=</button>
+      </div>
+      </div>
+      
+      <br>
+      <br>
+      
+    
+    <script src="cal1.js"></script>
+  </body>
+
+  <footer>
+  <div class="footer">
+    <p>&copy; 2023 Calculator</p>
+  </div>
+  
+    
+  </footer>
+  
+</html>
